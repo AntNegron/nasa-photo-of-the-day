@@ -53,9 +53,9 @@ function App() {
       </p>
       <Card style={colorStyling}>
         <Col sm="12" md={{ size: 6, offset: 3 }}>
-          <h1>Nasas' Photo Of The Day!</h1>
-          <img src={picOfDay.url} alt="NASA Photo Of The Day" style={img}/>
-          
+          <h1>NASA's Photo Of The Day!</h1>
+          <img src={picOfDay.url} alt="NASA" style={img}/>
+
           <div className="text">
             <h2>{picOfDay.title}</h2>
             <h3>{picOfDay.date}</h3>
